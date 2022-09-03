@@ -34,8 +34,7 @@ export default class Card extends React.Component {
           {cardAttr3}
         </p>
         <p data-testid="rare-card">{cardRare}</p>
-        {cardTrunfo ? <p data-testid="trunfo-card">Super Trunfo</p>
-          : null}
+        {cardTrunfo ? <p data-testid="trunfo-card">Super Trunfo</p> : null}
       </>
     );
   }
