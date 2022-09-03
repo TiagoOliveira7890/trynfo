@@ -1,0 +1,15 @@
+
+img {
+    height: 150px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .Card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
